@@ -2,7 +2,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Choice {
+import javax.swing.JButton;
+
+public class Choice extends JButton{
 	
 	private Question q;
 	

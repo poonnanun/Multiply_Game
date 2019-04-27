@@ -19,8 +19,6 @@ public class Game extends JFrame {
 		setVisible(true);
 		
 		p.setBounds(20, 10, 440, 100);
-		JLabel l = new JLabel("1 multiplication");
-	    JLabel l1 = new JLabel("highscore: 100");
 	    a.setSize(50,50);
 	    a.setBounds(10,10,50,50);
 	    p.add(new JLabel("1 multiplication"));
@@ -28,6 +26,7 @@ public class Game extends JFrame {
 	    p.add(a);
 	    p.setBorder(BorderFactory.createLineBorder(Color.black,2,true));
 	    
+	    setResizable(false);
 	    add(p);
 	    setLayout(null);
 	    a.setVisible(true);
@@ -38,7 +37,7 @@ public class Game extends JFrame {
 	
 	 public static void main(String[] args) {
 	        Game g = new Game();
-	    	
+ 	
 	 }
 
 }
