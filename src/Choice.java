@@ -4,7 +4,7 @@ import java.util.List;
 
 import javax.swing.JButton;
 
-public class Choice extends JButton{
+public class Choice{
 	
 	private Question q;
 	
@@ -15,7 +15,6 @@ public class Choice extends JButton{
 	}
 	
 	public void generateChoices() {
-		
 		int ans = q.getMultiplication() * q.getRandNum();
 		list.add(ans);
 		while(list.size() < 4) {
@@ -25,22 +24,12 @@ public class Choice extends JButton{
 		
 	}
 	
-	public boolean isCorrect() {
-
-		return false;
-	}
-	
-	public void printList() {
-		for (Integer i : list) {
-			System.out.println(i);
-		}
+	public List<Integer> getList() {
+		return this.list;
 	}
 	
 	public void shuffleChoice() {
 		Collections.shuffle(list);
-		for (Integer i : list) {
-			System.out.println(i);
-		}
 	}
 
 	

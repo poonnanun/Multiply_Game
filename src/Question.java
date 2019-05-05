@@ -22,7 +22,6 @@ public class Question {
 	}
 	
 	public String toString() {
-		return String.format("%d x %d", multiplication, randNum);
+		return String.format("%d x %d = ?", multiplication, randNum);
 	}
-
 }
