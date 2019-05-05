@@ -7,7 +7,7 @@
 
 ### UML class diagram
 
-![UML](https://github.com/poonnanun/Multiply_Game/src/Assets/UML.png)
+![UML](https://github.com/poonnanun/Multiply_Game/blob/master/src/Assets/UML.png)
 
 - - - - -
 
